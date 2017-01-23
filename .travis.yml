@@ -19,7 +19,7 @@ install:
   - ./checkcask
 before_script:
 script:
-  - brew test-bot
+  - brew doctor
 after_success:
 after_failure:
 before_deploy:
