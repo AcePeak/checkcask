@@ -16,10 +16,9 @@ before_install:
   - brew cask list
   - ulimit -n 1024
 install: 
-  - ./checkcask
 before_script:
 script:
-  - brew doctor
+  - ./checkcask
 after_success:
 after_failure:
 before_deploy:
